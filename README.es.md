@@ -10,15 +10,15 @@
 
 Esta vez no se hará Fork, tómate un tiempo para leer estas instrucciones:
 
-1. Crear un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Crear un nuevo repositorio basado en el [proyecto de Machine Learning](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
 2. Abre el repositorio creado recientemente en Gitpod usando la [extensión del botón de Gitpod](https://www.gitpod.io/docs/browser-extension/).
 3. Una vez que Gitpod VSCode haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
 ## 🚛 Cómo entregar este proyecto
 
-Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" a el fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
+Una vez que hayas terminado de resolver los ejercicios, asegúrate de confirmar tus cambios, hazle "push" al fork de tu repositorio y ve a 4Geeks.com para subir el enlace del repositorio.
 
-## 📝 Instructions
+## 📝 Instrucciones
 
 **Clasificador de imágenes**
 
@@ -60,7 +60,7 @@ Podríamos cargar todas las imágenes, remodelarlas y almacenarlas como un solo 
 
 Podemos escribir código personalizado para cargar las imágenes en la memoria y cambiarles el tamaño como parte del proceso de carga, luego guardarlas listas para el modelado.
 
-1. Si tienes más de 12 gigabytes de RAM, use la API de procesamiento de imágenes de Keras para cargar las 25 000 fotos en el conjunto de datos de entrenamiento y remodelarlas a fotos cuadradas de 200 × 200. La etiqueta también debe determinarse para cada foto en función de los nombres de archivo. Se debe guardar una tupla de fotos y etiquetas.
+1. Si tienes más de 12 gigabytes de RAM, usa la API de procesamiento de imágenes de Keras para cargar las 25 000 fotos en el conjunto de datos de entrenamiento y remodelarlas a fotos cuadradas de 200 × 200. La etiqueta también debe determinarse para cada foto en función de los nombres de archivo. Se debe guardar una tupla de fotos y etiquetas.
 
 2. Si no tienes más de 12 gigabytes de RAM, carga las imágenes progresivamente usando la clase Keras ImageDataGenerator y la API flow_from_directory(). Esto será más lento de ejecutar pero se ejecutará en más máquinas. Esta API prefiere que los datos se dividan en directorios train/ y test/ separados, y debajo de cada directorio para tener un subdirectorio para cada clase.
 
