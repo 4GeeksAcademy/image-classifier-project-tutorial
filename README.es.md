@@ -74,7 +74,7 @@ The ImageDataGenerator will automatically label all the data inside cat folder a
 
 Cualquier clasificador que se ajuste a este problema tendrá que ser robusto porque algunas imágenes muestran al gato o al perro en una esquina o tal vez a 2 gatos o perros en la misma foto. VGG16 es una arquitectura de red neuronal de convolución (CNN) utilizada para ganar la competencia ILSVR (Imagenet) en 2014. Se considera una de las arquitecturas de modelos de visión excelentes hasta la fecha.
 
-Lo más singular de VGG16 es que, en lugar de tener una gran cantidad de hiperparámetros, se enfocaron en tener capas de convolución de filtro 3x3 con un paso 1 y siempre usaron el mismo relleno y la misma capa maxpool de filtro 2x2 de paso 2. Sigue esto disposición de las capas de convolución y maxpool consistentemente a lo largo de toda la arquitectura. Al final, tiene 2 FC (capas totalmente conectadas) seguidas de un softmax para la salida. El 16 en VGG16 se refiere a que tiene 16 capas que tienen pesos. Esta red es bastante grande y tiene alrededor de 138 millones (aprox.) de parámetros.
+Lo más singular de VGG16 es que, en lugar de tener una gran cantidad de hiperparámetros, se enfocaron en tener capas de convolución de filtro 3x3 con un paso 1 y siempre usaron el mismo relleno y la misma capa maxpool de filtro 2x2 de paso 2. Sigue esta disposición de las capas de convolución y maxpool consistentemente a lo largo de toda la arquitectura. Al final, tiene 2 FC (capas totalmente conectadas) seguidas de un softmax para la salida. El 16 en VGG16 se refiere a que tiene 16 capas que tienen pesos. Esta red es bastante grande y tiene alrededor de 138 millones (aprox.) de parámetros.
 
 Inicializa el modelo especificando que el modelo es un modelo secuencial. Después de inicializar el modelo, agrega:
 
@@ -98,7 +98,7 @@ Inicializa el modelo especificando que el modelo es un modelo secuencial. Despu�
 
 → 1 x capa maxpool de tamaño piscina 2x2 y zancada 2x2.
 
-Agrega la activación de relu (Unidad lineal rectificada) a cada capa para que todos los valores negativos no pasen a la siguiente capa.
+Agrega la activación de RELU (Unidad lineal rectificada) a cada capa para que todos los valores negativos no pasen a la siguiente capa.
 
 Veamos unas primeras filas para tener una idea, y seguir con todas las capas:
 
@@ -132,7 +132,7 @@ Consulta el resumen del modelo
 
 **Paso 9:**
 
-Importa el método ModelCheckpoint y EarlyStopping de keras. Crea un objeto de ambos y páselo como funciones de devolución de llamada a fit_generator.
+Importa el método ModelCheckpoint y EarlyStopping de keras. Crea un objeto de ambos y pásalo como funciones de devolución de llamada a fit_generator.
 
 **Paso 10:**
 
@@ -144,7 +144,7 @@ Carga el mejor modelo guardado y preprocesa la imagen, luego pasa la imagen al m
 
 **Paso 12:**
 
-Usa tu archivo app.py para crear su clasificador de imágenes.
+Usa tu archivo app.py para crear tu clasificador de imágenes.
 
 En tu archivo README escribe un breve resumen.
 
