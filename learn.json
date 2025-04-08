@@ -8,11 +8,11 @@
 	"solution": "https://github.com/4GeeksAcademy/image-classifier-project-tutorial/blob/main/solution.ipynb",
 	"status": "published",
 	"translations": ["us"],
-	"technologies": ["data-science", "machine-learning"],
+	"technologies": ["python", "pandas", "numpy", "keras", "tensorflow", "matplotlib", "scikit-learn", "data-science", "machine-learning"],
 	"difficulty": "beginner",
 	"syntax": "python",
 	"duration" : 2,
-        "projectType": "project",
+  "projectType": "project",
 	"autoPlay": false,
 	"description" : {
 		"us": "Build an image classifier using deep learning! This project involves exploring a dataset, modeling with a neural network, and optimizing results. Train a convolutional neural network (CNN) to classify dog and cat images, refine performance with techniques like data augmentation, and evaluate the model.",

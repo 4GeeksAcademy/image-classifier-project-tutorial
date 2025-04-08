@@ -5,7 +5,7 @@
 - Understanding a new dataset.
 - Model the data using an ANN.
 - Analyze the results and optimize the model.
-
+  
 ## 🌱 How to start this project
 
 Follow the instructions below:

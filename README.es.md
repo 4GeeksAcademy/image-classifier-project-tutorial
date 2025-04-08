@@ -5,7 +5,7 @@
 - Comprender un dataset nuevo.
 - Modelar los datos utilizando una RNA.
 - Analizar los resultados y optimizar el modelo.
-
+  
 ## 🌱 Cómo iniciar este proyecto
 
 Sigue las siguientes instrucciones:
